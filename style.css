@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
+.header{
+ 
+    border-bottom: 3px solid #A9508B;
+    background-color: #35424A;
+    padding: 2% 1% 5% 1%;
+    color: white;
+}
+span{
+    color:#A9508B;
+}
+.header-left{
+    float: left;
+    
+}
+.header-navigator{
+ 
+    float: right;
+}
+
+a {
+    
+    text-decoration: none;
+    padding-right: 5px; 
+    color: white; 
+
+}
+#home{
+    color:#A9508B;
+}
+
+
+.header-navigator li{   
+    list-style: none;
+    display: inline-block;
+    
+         
+}
+
+.main1{
+    
+    color: white;
+    height: 30%;
+    text-align: center;
+    padding: 5%;
+    background-image: url(showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main1 h1{
+   margin-bottom: 1% ;
+}
+
+
+.main2-right{
+    float: right;
+    width: 28%;
+}
+.main2 p{
+    float: left;
+}
+
+.main2{
+    color: white;
+   background-color:#35424A;
+   padding: 2% 1% 5% 1%;
+  
+}
+input{
+    padding: 2.5%;
+    width: max-content;
+
+}
+button{
+    background-color: #E8491D;
+    border: none;
+    color: white;
+    padding: 3%;
+    margin: 1%;
+    
+}
+.main3{
+    display: flex;
+    text-align: center;
+    margin: 2%;
+    height: 15%;
+}
+.main3-html{
+    margin: 1%;
+    width: 30%;
+}
+.main3-css{
+    margin: 1%;
+    width: 30%;
+}
+.main3-graphic{
+    margin: 1%;
+    width: 30%;
+}
+.main3 img{
+    width: 40%;
+    height: auto; 
+    
+}
+.footer{
+    width: 100%;
+    background-color: #35424A; 
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+
+}
